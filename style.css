@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heropix{
+    background-image: url(./images/image943.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+}
+.white:hover{
+    color: white;
+}
+.black{
+    background-color: black;
+}
+.blue:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.section01{
+    font-family: serif;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+} 
+.bg-color:hover{
+    background-color: white;
+    color: black !important;
+    transition: all ease 2s;
+}
+.bg-color01{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #1F2022;
+}
+@media only screen and (max-width:780px) {
+    .section01{
+        position: none;
+        left:auto ;
+        text-align: center;
+    }
+    .heropix{
+        background-position: center;
+    }
+    
+}
